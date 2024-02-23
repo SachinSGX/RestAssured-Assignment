@@ -329,7 +329,7 @@ public class TestScenarioOne extends TestBase {
         deleteCourseResponseDTO = (DeleteCourseResponseDTO) objectService.deleteCourse(courseID, headers, DeleteCourseResponseDTO.class);
 
         softAssert.assertEquals(deleteCourseResponseDTO.getStatusCode(), 400);
-        softAssert.assertEquals(deleteCourseResponseDTO.getMessage(), "Deletion is not allowed for this course as it has already been purchased by students.");
+        softAssert.assertEquals(deleteCourseResponseDTO.getMessage(), Constants.COURSE_DELETE_FAILED_MESSAGE);
         softAssert.assertAll();
     }
 

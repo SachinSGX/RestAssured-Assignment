@@ -1,26 +1,26 @@
-2024-02-23 23:23:07 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-02-24 00:23:03 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\sachi\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-2024-02-23 23:23:07 [main] INFO  com.syntaxgenie.util.TestBase - Load the properties file /testdata/dev_data.properties
-2024-02-23 23:23:07 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onStart method [TestCreateCourseScenarios.testCreateLiveClassAllFieldsPaid(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestCreateCourseScenarios@4baf352a], TestCreateCourseScenarios.testCreateLiveClassMandatoryFieldsFree(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestCreateCourseScenarios@4baf352a], TestCreateCourseScenarios.testCreateLiveClassMandatoryFieldsPaid(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestCreateCourseScenarios@4baf352a], TestCreateCourseScenarios.testCreateLiveClassMandatoryFieldsPaidCouponsNotAllowed(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestCreateCourseScenarios@4baf352a], TestCreateCourseScenarios.testCreateOnDemandCourseAllFieldsPaid(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestCreateCourseScenarios@4baf352a], TestCreateCourseScenarios.testCreateOnDemandCourseMandatoryFieldsFree(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestCreateCourseScenarios@4baf352a], TestCreateCourseScenarios.testCreateOnDemandCourseMandatoryFieldsPaid(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestCreateCourseScenarios@4baf352a], TestCreateCourseScenarios.testCreateOnDemandCourseMandatoryFieldsPaidCouponNotAllowed(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestCreateCourseScenarios@4baf352a]]
-2024-02-23 23:23:08 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
+2024-02-24 00:23:03 [main] INFO  com.syntaxgenie.util.TestBase - Load the properties file /testdata/dev_data.properties
+2024-02-24 00:23:03 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onStart method [TestScenarioOne.testCreateCourse(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestScenarioOne@4e28bdd1], TestScenarioOne.testCreateLesson(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestScenarioOne@4e28bdd1], TestScenarioOne.testCreateUnit(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestScenarioOne@4e28bdd1], TestScenarioOne.testCreateChapter(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestScenarioOne@4e28bdd1], TestScenarioOne.testEnrollUsers(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestScenarioOne@4e28bdd1], TestScenarioOne.testUpdateCourse(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestScenarioOne@4e28bdd1], TestScenarioOne.testDeleteCourse(java.lang.reflect.Method)[pri:0, instance:com.syntaxgenie.tests.TestScenarioOne@4e28bdd1]]
+2024-02-24 00:23:03 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
 {
   "email" : "skfadmin@gmail.com",
   "password" : "SKF@Admin_2023"
 }
-2024-02-23 23:23:11 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testCreateLiveClassAllFieldsPaid start
-2024-02-23 23:23:11 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
+2024-02-24 00:23:07 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testCreateCourse start
+2024-02-24 00:23:07 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
 [ {
   "name" : "Content-Type",
   "value" : "application/json"
 }, {
   "name" : "Authorization",
-  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjAzOTAsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzEwNzkwLCJ1c2VySWQiOjMxMzAxfQ.ksXACfTyqZbhAClxFpPN38RBB2aPA1WBKzejnzHj0UZ2yruzGSYh3hc1IpPU96oeJe6JbyI7KCr1UJK41JD6Fg"
+  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjM5ODYsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzE0Mzg2LCJ1c2VySWQiOjMxMzAxfQ.V9vArZmLeIexo-yDDzVFkR8TpwrECkezwDee--QjkUtcLoLU4GuRJhz2JW84neFy5EVx47mxQFfn94Koj0RfCg"
 } ]
-2024-02-23 23:23:11 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
+2024-02-24 00:23:07 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
 {
-  "name" : "Introduction to Rest Assured [Live Class] [All] [Paid]",
-  "description" : "test description for live class.",
+  "name" : "Introduction to Rest Assured",
+  "description" : "test description.",
   "type" : "SHORT_COURSE",
   "difficultyLevel" : "BEGINNER",
   "outlines" : [ {
@@ -41,7 +41,7 @@
   } ],
   "registrationStartDate" : "2024-01-01T15:03:01.000Z",
   "registrationEndDate" : "2024-01-30T15:03:01.000Z",
-  "startDate" : "2024-02-02T15:03:01.000Z",
+  "startDate" : "2024-02-05T15:03:01.000Z",
   "endDate" : "2024-06-30T15:03:01.000Z",
   "coverImageUrl" : "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
   "previewVideo" : "https://www.youtube.com/watch?v=OM4mr3PKgcQ&list=PLUDwpEzHYYLvLZX_QEGTNolPvNADXid0I",
@@ -50,18 +50,18 @@
   "prerequisites" : "There should be basic knowledge in API testing",
   "classSchedule" : "classes will be held on weekends",
   "fieldOfStudy" : "INTERNET_OF_THINGS",
-  "price" : 25000.0,
+  "price" : 15600.0,
   "mode" : "LIVE_CLASS",
   "isPaid" : true,
   "isCouponAllowed" : true,
-  "formLink" : "https://forms.gle/BvjP5CShBoi6Hs8w7"
+  "estimatedCourseDuration" : "12 hours of videos"
 }
-2024-02-23 23:23:11 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 201
-2024-02-23 23:23:11 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
+2024-02-24 00:23:08 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 201
+2024-02-24 00:23:08 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
 {
-    "id": 66512,
-    "name": "Introduction to Rest Assured [Live Class] [All] [Paid]",
-    "description": "test description for live class.",
+    "id": 66520,
+    "name": "Introduction to Rest Assured",
+    "description": "test description.",
     "mode": "LIVE_CLASS",
     "type": "SHORT_COURSE",
     "difficultyLevel": "BEGINNER",
@@ -94,7 +94,7 @@
     ],
     "registrationStartDate": "2024-01-01T15:03:01Z",
     "registrationEndDate": "2024-01-30T15:03:01Z",
-    "startDate": "2024-02-02T15:03:01Z",
+    "startDate": "2024-02-05T15:03:01Z",
     "endDate": "2024-06-30T15:03:01Z",
     "coverImageUrl": "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
     "previewVideo": "https://www.youtube.com/watch?v=OM4mr3PKgcQ&list=PLUDwpEzHYYLvLZX_QEGTNolPvNADXid0I",
@@ -104,11 +104,11 @@
     "classSchedule": "classes will be held on weekends",
     "fieldOfStudy": "INTERNET_OF_THINGS",
     "rating": 0.0,
-    "price": 25000.0,
+    "price": 15600.0,
     "draft": false,
     "courseType": "Short Course",
     "courseDifficultyLevel": "BEGINNER",
-    "courseDuration": "21 weeks",
+    "courseDuration": "20 weeks",
     "specialization": "Internet Of Things",
     "instructorName": "Jhon Doe",
     "instructorProfilePicture": "https://devsalearnovaeastus2.blob.core.windows.net/dev-storage-container-learnova-eastus2/images%2Fimages_jpg.jpg",
@@ -117,383 +117,105 @@
     ],
     "totalNumberOfReviews": "0",
     "createdBy": 31301,
-    "createdDate": "2024-02-23T17:53:11.609898751Z",
+    "createdDate": "2024-02-23T18:53:08.048859212Z",
     "lastModifiedBy": 31301,
-    "lastModifiedDate": "2024-02-23T17:53:11.609898751Z",
-    "formLink": "https://forms.gle/BvjP5CShBoi6Hs8w7",
-    "enrolled": null,
-    "enrollmentId": null,
-    "paid": true,
-    "couponAllowed": true
-}
-2024-02-23 23:23:11 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testCreateLiveClassAllFieldsPaid succeed
-2024-02-23 23:23:11 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testCreateLiveClassMandatoryFieldsFree start
-2024-02-23 23:23:11 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
-[ {
-  "name" : "Content-Type",
-  "value" : "application/json"
-}, {
-  "name" : "Authorization",
-  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjAzOTAsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzEwNzkwLCJ1c2VySWQiOjMxMzAxfQ.ksXACfTyqZbhAClxFpPN38RBB2aPA1WBKzejnzHj0UZ2yruzGSYh3hc1IpPU96oeJe6JbyI7KCr1UJK41JD6Fg"
-} ]
-2024-02-23 23:23:11 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
-{
-  "name" : "Introduction to Rest Assured [Live Class] [Mandatory] [Free]",
-  "description" : "test description for live class.",
-  "type" : "SHORT_COURSE",
-  "difficultyLevel" : "BEGINNER",
-  "outlines" : [ {
-    "title" : "Introduction Session",
-    "description" : "This session provides an overview of the course objectives, structure, and expectations. It also includes a brief introduction of the instructor and an opportunity for students to introduce themselves."
-  } ],
-  "expertsPanel" : [ {
-    "name" : "Dr. Sachin Seram",
-    "designation" : "Senior Lecturer"
-  } ],
-  "frequentlyAskedQuestions" : [ ],
-  "collaborationLogos" : [ ],
-  "registrationStartDate" : "2024-01-01T15:03:01.000Z",
-  "registrationEndDate" : "2024-01-30T15:03:01.000Z",
-  "startDate" : "2024-02-02T15:03:01.000Z",
-  "endDate" : "2024-06-30T15:03:01.000Z",
-  "coverImageUrl" : "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-  "previewVideo" : "",
-  "needToPrepareSection" : "",
-  "bannerVectorUrl" : "",
-  "prerequisites" : "",
-  "classSchedule" : "classes will be held on weekends",
-  "fieldOfStudy" : "INTERNET_OF_THINGS",
-  "mode" : "LIVE_CLASS",
-  "isPaid" : false
-}
-2024-02-23 23:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 201
-2024-02-23 23:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
-{
-    "id": 66513,
-    "name": "Introduction to Rest Assured [Live Class] [Mandatory] [Free]",
-    "description": "test description for live class.",
-    "mode": "LIVE_CLASS",
-    "type": "SHORT_COURSE",
-    "difficultyLevel": "BEGINNER",
-    "outlines": [
-        {
-            "title": "Introduction Session",
-            "description": "This session provides an overview of the course objectives, structure, and expectations. It also includes a brief introduction of the instructor and an opportunity for students to introduce themselves."
-        }
-    ],
-    "expertsPanel": [
-        {
-            "name": "Dr. Sachin Seram",
-            "designation": "Senior Lecturer"
-        }
-    ],
-    "frequentlyAskedQuestions": [
-        
-    ],
-    "collaborationLogos": [
-        
-    ],
-    "sequence": [
-        
-    ],
-    "registrationStartDate": "2024-01-01T15:03:01Z",
-    "registrationEndDate": "2024-01-30T15:03:01Z",
-    "startDate": "2024-02-02T15:03:01Z",
-    "endDate": "2024-06-30T15:03:01Z",
-    "coverImageUrl": "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-    "previewVideo": "",
-    "needToPrepareSection": "",
-    "bannerVectorUrl": "",
-    "prerequisites": "",
-    "classSchedule": "classes will be held on weekends",
-    "fieldOfStudy": "INTERNET_OF_THINGS",
-    "rating": 0.0,
-    "price": null,
-    "draft": false,
-    "courseType": "Short Course",
-    "courseDifficultyLevel": "BEGINNER",
-    "courseDuration": "21 weeks",
-    "specialization": "Internet Of Things",
-    "instructorName": "Jhon Doe",
-    "instructorProfilePicture": "https://devsalearnovaeastus2.blob.core.windows.net/dev-storage-container-learnova-eastus2/images%2Fimages_jpg.jpg",
-    "totalReviews": [
-        
-    ],
-    "totalNumberOfReviews": "0",
-    "createdBy": 31301,
-    "createdDate": "2024-02-23T17:53:12.107182046Z",
-    "lastModifiedBy": 31301,
-    "lastModifiedDate": "2024-02-23T17:53:12.107182046Z",
-    "formLink": null,
-    "enrolled": null,
-    "enrollmentId": null,
-    "paid": false,
-    "couponAllowed": false
-}
-2024-02-23 23:23:12 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testCreateLiveClassMandatoryFieldsFree succeed
-2024-02-23 23:23:12 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testCreateLiveClassMandatoryFieldsPaid start
-2024-02-23 23:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
-[ {
-  "name" : "Content-Type",
-  "value" : "application/json"
-}, {
-  "name" : "Authorization",
-  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjAzOTAsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzEwNzkwLCJ1c2VySWQiOjMxMzAxfQ.ksXACfTyqZbhAClxFpPN38RBB2aPA1WBKzejnzHj0UZ2yruzGSYh3hc1IpPU96oeJe6JbyI7KCr1UJK41JD6Fg"
-} ]
-2024-02-23 23:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
-{
-  "name" : "Introduction to Rest Assured [Live Class] [Mandatory] [Paid]",
-  "description" : "test description for live class.",
-  "type" : "SHORT_COURSE",
-  "difficultyLevel" : "BEGINNER",
-  "outlines" : [ {
-    "title" : "Introduction Session",
-    "description" : "This session provides an overview of the course objectives, structure, and expectations. It also includes a brief introduction of the instructor and an opportunity for students to introduce themselves."
-  } ],
-  "expertsPanel" : [ {
-    "name" : "Dr. Sachin Seram",
-    "designation" : "Senior Lecturer"
-  } ],
-  "frequentlyAskedQuestions" : [ ],
-  "collaborationLogos" : [ ],
-  "registrationStartDate" : "2024-01-01T15:03:01.000Z",
-  "registrationEndDate" : "2024-01-30T15:03:01.000Z",
-  "startDate" : "2024-02-02T15:03:01.000Z",
-  "endDate" : "2024-06-30T15:03:01.000Z",
-  "coverImageUrl" : "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-  "previewVideo" : "",
-  "needToPrepareSection" : "",
-  "bannerVectorUrl" : "",
-  "prerequisites" : "",
-  "classSchedule" : "classes will be held on weekends",
-  "fieldOfStudy" : "INTERNET_OF_THINGS",
-  "price" : 25000.0,
-  "mode" : "LIVE_CLASS",
-  "isPaid" : true,
-  "isCouponAllowed" : true
-}
-2024-02-23 23:23:13 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 201
-2024-02-23 23:23:13 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
-{
-    "id": 66514,
-    "name": "Introduction to Rest Assured [Live Class] [Mandatory] [Paid]",
-    "description": "test description for live class.",
-    "mode": "LIVE_CLASS",
-    "type": "SHORT_COURSE",
-    "difficultyLevel": "BEGINNER",
-    "outlines": [
-        {
-            "title": "Introduction Session",
-            "description": "This session provides an overview of the course objectives, structure, and expectations. It also includes a brief introduction of the instructor and an opportunity for students to introduce themselves."
-        }
-    ],
-    "expertsPanel": [
-        {
-            "name": "Dr. Sachin Seram",
-            "designation": "Senior Lecturer"
-        }
-    ],
-    "frequentlyAskedQuestions": [
-        
-    ],
-    "collaborationLogos": [
-        
-    ],
-    "sequence": [
-        
-    ],
-    "registrationStartDate": "2024-01-01T15:03:01Z",
-    "registrationEndDate": "2024-01-30T15:03:01Z",
-    "startDate": "2024-02-02T15:03:01Z",
-    "endDate": "2024-06-30T15:03:01Z",
-    "coverImageUrl": "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-    "previewVideo": "",
-    "needToPrepareSection": "",
-    "bannerVectorUrl": "",
-    "prerequisites": "",
-    "classSchedule": "classes will be held on weekends",
-    "fieldOfStudy": "INTERNET_OF_THINGS",
-    "rating": 0.0,
-    "price": 25000.0,
-    "draft": false,
-    "courseType": "Short Course",
-    "courseDifficultyLevel": "BEGINNER",
-    "courseDuration": "21 weeks",
-    "specialization": "Internet Of Things",
-    "instructorName": "Jhon Doe",
-    "instructorProfilePicture": "https://devsalearnovaeastus2.blob.core.windows.net/dev-storage-container-learnova-eastus2/images%2Fimages_jpg.jpg",
-    "totalReviews": [
-        
-    ],
-    "totalNumberOfReviews": "0",
-    "createdBy": 31301,
-    "createdDate": "2024-02-23T17:53:12.977846592Z",
-    "lastModifiedBy": 31301,
-    "lastModifiedDate": "2024-02-23T17:53:12.977846592Z",
+    "lastModifiedDate": "2024-02-23T18:53:08.048859212Z",
     "formLink": null,
     "enrolled": null,
     "enrollmentId": null,
     "paid": true,
     "couponAllowed": true
 }
-2024-02-23 23:23:13 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testCreateLiveClassMandatoryFieldsPaid succeed
-2024-02-23 23:23:13 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testCreateLiveClassMandatoryFieldsPaidCouponsNotAllowed start
-2024-02-23 23:23:13 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
+2024-02-24 00:23:08 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testCreateCourse succeed
+2024-02-24 00:23:08 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testCreateLesson start
+2024-02-24 00:23:08 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
 [ {
   "name" : "Content-Type",
   "value" : "application/json"
 }, {
   "name" : "Authorization",
-  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjAzOTAsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzEwNzkwLCJ1c2VySWQiOjMxMzAxfQ.ksXACfTyqZbhAClxFpPN38RBB2aPA1WBKzejnzHj0UZ2yruzGSYh3hc1IpPU96oeJe6JbyI7KCr1UJK41JD6Fg"
+  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjM5ODYsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzE0Mzg2LCJ1c2VySWQiOjMxMzAxfQ.V9vArZmLeIexo-yDDzVFkR8TpwrECkezwDee--QjkUtcLoLU4GuRJhz2JW84neFy5EVx47mxQFfn94Koj0RfCg"
 } ]
-2024-02-23 23:23:13 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
+2024-02-24 00:23:08 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
 {
-  "name" : "Introduction to Rest Assured [Live Class] [Mandatory] [Paid] [No_Coupons]",
-  "description" : "test description for live class.",
-  "type" : "SHORT_COURSE",
-  "difficultyLevel" : "BEGINNER",
-  "outlines" : [ {
-    "title" : "Introduction Session",
-    "description" : "This session provides an overview of the course objectives, structure, and expectations. It also includes a brief introduction of the instructor and an opportunity for students to introduce themselves."
-  } ],
-  "expertsPanel" : [ {
-    "name" : "Dr. Sachin Seram",
-    "designation" : "Senior Lecturer"
-  } ],
-  "frequentlyAskedQuestions" : [ ],
-  "collaborationLogos" : [ ],
-  "registrationStartDate" : "2024-01-01T15:03:01.000Z",
-  "registrationEndDate" : "2024-01-30T15:03:01.000Z",
-  "startDate" : "2024-02-02T15:03:01.000Z",
-  "endDate" : "2024-06-30T15:03:01.000Z",
-  "coverImageUrl" : "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-  "previewVideo" : "",
-  "needToPrepareSection" : "",
-  "bannerVectorUrl" : "",
-  "prerequisites" : "",
-  "classSchedule" : "classes will be held on weekends",
-  "fieldOfStudy" : "INTERNET_OF_THINGS",
-  "price" : 25000.0,
-  "mode" : "LIVE_CLASS",
-  "isPaid" : true,
-  "isCouponAllowed" : false
+  "courseId" : 66520,
+  "name" : "What is Rest Assured",
+  "description" : "Test Description for Lesson One",
+  "containsUnits" : true
 }
-2024-02-23 23:23:13 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 201
-2024-02-23 23:23:13 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 201
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
 {
-    "id": 66515,
-    "name": "Introduction to Rest Assured [Live Class] [Mandatory] [Paid] [No_Coupons]",
-    "description": "test description for live class.",
+    "id": 66555,
+    "courseId": 66520,
+    "name": "What is Rest Assured",
+    "description": "Test Description for Lesson One",
+    "containsUnits": true
+}
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testCreateLesson succeed
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testCreateUnit start
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
+[ {
+  "name" : "Content-Type",
+  "value" : "application/json"
+}, {
+  "name" : "Authorization",
+  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjM5ODYsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzE0Mzg2LCJ1c2VySWQiOjMxMzAxfQ.V9vArZmLeIexo-yDDzVFkR8TpwrECkezwDee--QjkUtcLoLU4GuRJhz2JW84neFy5EVx47mxQFfn94Koj0RfCg"
+} ]
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
+{
+  "courseId" : 66520,
+  "lessonId" : 66555,
+  "name" : "What is API testing?",
+  "description" : "Test Description for Unit One"
+}
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 201
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
+{
+    "id": 66605,
+    "courseId": 66520,
+    "lessonId": 66555,
+    "name": "What is API testing?",
+    "description": "Test Description for Unit One"
+}
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testCreateUnit succeed
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testCreateChapter start
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
+[ {
+  "name" : "Content-Type",
+  "value" : "application/json"
+}, {
+  "name" : "Authorization",
+  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjM5ODYsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzE0Mzg2LCJ1c2VySWQiOjMxMzAxfQ.V9vArZmLeIexo-yDDzVFkR8TpwrECkezwDee--QjkUtcLoLU4GuRJhz2JW84neFy5EVx47mxQFfn94Koj0RfCg"
+} ]
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
+{
+  "courseId" : 66520,
+  "lessonId" : 66555,
+  "unitId" : 66605,
+  "chapterName" : "Why Use Postman for API Testing?",
+  "chapterDescription" : "Test Description for Chapter One",
+  "chapterTextContentDTOList" : [ {
+    "chapterId" : 0,
+    "content" : "Postman is a comprehensive API testing tool that simplifies creating, testing, and documenting APIs. It provides an intuitive user interface that enables developers to design and test APIs and automate their testing processes easily. Postman also supports collaboration among team members by allowing them to share and version control their API tests and collections.",
+    "chapterItemSequenceNumber" : 0,
+    "contentType" : "CHAPTER_TEXT_CONTENT"
+  } ],
+  "chapterVideoDTOList" : [ ],
+  "chapterMaterialDTOList" : [ ],
+  "chapterExternalResourceDTOList" : [ ],
+  "sequenceIdDTOList" : [ {
+    "type" : "CHAPTER_TEXT_CONTENT",
+    "chapterItemSequenceNumber" : 0
+  } ]
+}
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 200
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
+{
+    "id": 66520,
+    "name": "Introduction to Rest Assured",
+    "description": "test description.",
     "mode": "LIVE_CLASS",
-    "type": "SHORT_COURSE",
-    "difficultyLevel": "BEGINNER",
-    "outlines": [
-        {
-            "title": "Introduction Session",
-            "description": "This session provides an overview of the course objectives, structure, and expectations. It also includes a brief introduction of the instructor and an opportunity for students to introduce themselves."
-        }
-    ],
-    "expertsPanel": [
-        {
-            "name": "Dr. Sachin Seram",
-            "designation": "Senior Lecturer"
-        }
-    ],
-    "frequentlyAskedQuestions": [
-        
-    ],
-    "collaborationLogos": [
-        
-    ],
-    "sequence": [
-        
-    ],
-    "registrationStartDate": "2024-01-01T15:03:01Z",
-    "registrationEndDate": "2024-01-30T15:03:01Z",
-    "startDate": "2024-02-02T15:03:01Z",
-    "endDate": "2024-06-30T15:03:01Z",
-    "coverImageUrl": "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-    "previewVideo": "",
-    "needToPrepareSection": "",
-    "bannerVectorUrl": "",
-    "prerequisites": "",
-    "classSchedule": "classes will be held on weekends",
-    "fieldOfStudy": "INTERNET_OF_THINGS",
-    "rating": 0.0,
-    "price": 25000.0,
-    "draft": false,
-    "courseType": "Short Course",
-    "courseDifficultyLevel": "BEGINNER",
-    "courseDuration": "21 weeks",
-    "specialization": "Internet Of Things",
-    "instructorName": "Jhon Doe",
-    "instructorProfilePicture": "https://devsalearnovaeastus2.blob.core.windows.net/dev-storage-container-learnova-eastus2/images%2Fimages_jpg.jpg",
-    "totalReviews": [
-        
-    ],
-    "totalNumberOfReviews": "0",
-    "createdBy": 31301,
-    "createdDate": "2024-02-23T17:53:13.805470833Z",
-    "lastModifiedBy": 31301,
-    "lastModifiedDate": "2024-02-23T17:53:13.805470833Z",
-    "formLink": null,
-    "enrolled": null,
-    "enrollmentId": null,
-    "paid": true,
-    "couponAllowed": false
-}
-2024-02-23 23:23:13 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testCreateLiveClassMandatoryFieldsPaidCouponsNotAllowed succeed
-2024-02-23 23:23:13 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testCreateOnDemandCourseAllFieldsPaid start
-2024-02-23 23:23:13 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
-[ {
-  "name" : "Content-Type",
-  "value" : "application/json"
-}, {
-  "name" : "Authorization",
-  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjAzOTAsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzEwNzkwLCJ1c2VySWQiOjMxMzAxfQ.ksXACfTyqZbhAClxFpPN38RBB2aPA1WBKzejnzHj0UZ2yruzGSYh3hc1IpPU96oeJe6JbyI7KCr1UJK41JD6Fg"
-} ]
-2024-02-23 23:23:13 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
-{
-  "name" : "Introduction to Rest Assured [On Demand] [All] [Paid]",
-  "description" : "test description for on demand course.",
-  "type" : "SHORT_COURSE",
-  "difficultyLevel" : "BEGINNER",
-  "outlines" : [ {
-    "title" : "Introduction Session",
-    "description" : "This session provides an overview of the course objectives, structure, and expectations. It also includes a brief introduction of the instructor and an opportunity for students to introduce themselves."
-  } ],
-  "expertsPanel" : [ {
-    "name" : "Dr. Sachin Seram",
-    "designation" : "Senior Lecturer"
-  } ],
-  "frequentlyAskedQuestions" : [ {
-    "question" : "Who can use this FAQ template?",
-    "answer" : "This FAQ template is for marketers, business owners and freelancers who want to reduce customer service efforts. Swap your standard FAQ section for an engaging online form, and make it easier for customers to find what they need."
-  } ],
-  "collaborationLogos" : [ {
-    "name" : "download.jpeg999f0b6c-3a30-4143-bd6c-508a14f4429e.jpg",
-    "url" : "https://devsalearnovaeastus2.blob.core.windows.net/dev-storage-container-learnova-eastus2/images%2Fdownload.jpeg999f0b6c-3a30-4143-bd6c-508a14f4429e.jpg"
-  } ],
-  "coverImageUrl" : "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-  "previewVideo" : "https://www.youtube.com/watch?v=OM4mr3PKgcQ&list=PLUDwpEzHYYLvLZX_QEGTNolPvNADXid0I",
-  "needToPrepareSection" : "not required",
-  "bannerVectorUrl" : "https://community.nasscom.in/wp-content/uploads/2020/11/2-Copy-1024x539.png",
-  "prerequisites" : "There should be basic knowledge in API testing",
-  "classSchedule" : "classes will be held on weekends",
-  "fieldOfStudy" : "INTERNET_OF_THINGS",
-  "price" : 25000.0,
-  "mode" : "ON_DEMAND",
-  "isPaid" : true,
-  "isCouponAllowed" : true,
-  "estimatedCourseDuration" : "12 hours of videos"
-}
-2024-02-23 23:23:14 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 201
-2024-02-23 23:23:14 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
-{
-    "id": 66516,
-    "name": "Introduction to Rest Assured [On Demand] [All] [Paid]",
-    "description": "test description for on demand course.",
-    "mode": "ON_DEMAND",
     "type": "SHORT_COURSE",
     "difficultyLevel": "BEGINNER",
     "outlines": [
@@ -521,12 +243,30 @@
         }
     ],
     "sequence": [
-        
+        {
+            "lessonId": 66555,
+            "units": [
+                {
+                    "unitId": 66605,
+                    "chapters": [
+                        {
+                            "chapterId": 66655,
+                            "contents": [
+                                {
+                                    "contentId": 66705,
+                                    "type": "CHAPTER_TEXT_CONTENT"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ],
-    "registrationStartDate": null,
-    "registrationEndDate": null,
-    "startDate": null,
-    "endDate": null,
+    "registrationStartDate": "2024-01-01T15:03:01Z",
+    "registrationEndDate": "2024-01-30T15:03:01Z",
+    "startDate": "2024-02-05T15:03:01Z",
+    "endDate": "2024-06-30T15:03:01Z",
     "coverImageUrl": "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
     "previewVideo": "https://www.youtube.com/watch?v=OM4mr3PKgcQ&list=PLUDwpEzHYYLvLZX_QEGTNolPvNADXid0I",
     "needToPrepareSection": "not required",
@@ -535,44 +275,68 @@
     "classSchedule": "classes will be held on weekends",
     "fieldOfStudy": "INTERNET_OF_THINGS",
     "rating": 0.0,
-    "price": 25000.0,
+    "price": 15600.0,
     "draft": false,
-    "courseType": "Short Course",
-    "courseDifficultyLevel": "BEGINNER",
-    "courseDuration": "12 hours of videos",
-    "specialization": "Internet Of Things",
-    "instructorName": "Jhon Doe",
-    "instructorProfilePicture": "https://devsalearnovaeastus2.blob.core.windows.net/dev-storage-container-learnova-eastus2/images%2Fimages_jpg.jpg",
-    "totalReviews": [
-        
-    ],
-    "totalNumberOfReviews": "0",
-    "createdBy": 31301,
-    "createdDate": "2024-02-23T17:53:14.126486949Z",
-    "lastModifiedBy": 31301,
-    "lastModifiedDate": "2024-02-23T17:53:14.126486949Z",
     "formLink": null,
-    "enrolled": null,
-    "enrollmentId": null,
+    "estimatedCourseDuration": "12 hours of videos",
     "paid": true,
     "couponAllowed": true
 }
-2024-02-23 23:23:14 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testCreateOnDemandCourseAllFieldsPaid succeed
-2024-02-23 23:23:14 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testCreateOnDemandCourseMandatoryFieldsFree start
-2024-02-23 23:23:14 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testCreateChapter succeed
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testEnrollUsers start
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
 [ {
   "name" : "Content-Type",
   "value" : "application/json"
 }, {
   "name" : "Authorization",
-  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjAzOTAsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzEwNzkwLCJ1c2VySWQiOjMxMzAxfQ.ksXACfTyqZbhAClxFpPN38RBB2aPA1WBKzejnzHj0UZ2yruzGSYh3hc1IpPU96oeJe6JbyI7KCr1UJK41JD6Fg"
+  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjM5ODYsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzE0Mzg2LCJ1c2VySWQiOjMxMzAxfQ.V9vArZmLeIexo-yDDzVFkR8TpwrECkezwDee--QjkUtcLoLU4GuRJhz2JW84neFy5EVx47mxQFfn94Koj0RfCg"
 } ]
-2024-02-23 23:23:14 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
+2024-02-24 00:23:09 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
 {
-  "name" : "Introduction to Rest Assured [On Demand] [Mandatory] [Free]",
-  "description" : "test description for on demand course.",
-  "type" : "SHORT_COURSE",
-  "difficultyLevel" : "BEGINNER",
+  "emails" : [ "sachin.seram@gmail.com", "navinda@gmail.com", "justinlim406@gmail.com" ],
+  "courseId" : 66520
+}
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 200
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
+[
+    {
+        "enrollmentId": 66812,
+        "email": "sachin.seram@gmail.com",
+        "name": "Sachin Seram",
+        "index": "SKF2300031"
+    },
+    {
+        "enrollmentId": 66813,
+        "email": "navinda@gmail.com",
+        "name": null,
+        "index": null
+    },
+    {
+        "enrollmentId": 66814,
+        "email": "justinlim406@gmail.com",
+        "name": "Justin Lim",
+        "index": "SKF2300057"
+    }
+]
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Given Response Type Not Matched To Actual Response Got - class com.syntaxgenie.responseDTO.EnrollStudentResponseDTO
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestFailure method testEnrollUsers failed
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testUpdateCourse start
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
+[ {
+  "name" : "Content-Type",
+  "value" : "application/json"
+}, {
+  "name" : "Authorization",
+  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjM5ODYsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzE0Mzg2LCJ1c2VySWQiOjMxMzAxfQ.V9vArZmLeIexo-yDDzVFkR8TpwrECkezwDee--QjkUtcLoLU4GuRJhz2JW84neFy5EVx47mxQFfn94Koj0RfCg"
+} ]
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
+{
+  "id" : 66520,
+  "name" : "Introduction to Rest Assured [Updated]",
+  "description" : "test description [Updated]",
+  "type" : "COURSE",
+  "difficultyLevel" : "INTERMEDIATE",
   "outlines" : [ {
     "title" : "Introduction Session",
     "description" : "This session provides an overview of the course objectives, structure, and expectations. It also includes a brief introduction of the instructor and an opportunity for students to introduce themselves."
@@ -581,131 +345,40 @@
     "name" : "Dr. Sachin Seram",
     "designation" : "Senior Lecturer"
   } ],
-  "frequentlyAskedQuestions" : [ ],
-  "collaborationLogos" : [ ],
-  "coverImageUrl" : "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-  "previewVideo" : "",
-  "needToPrepareSection" : "",
-  "bannerVectorUrl" : "",
-  "prerequisites" : "",
-  "classSchedule" : "classes will be held on weekends",
-  "fieldOfStudy" : "INTERNET_OF_THINGS",
-  "mode" : "ON_DEMAND",
-  "isPaid" : false,
-  "estimatedCourseDuration" : "12 hours of videos"
-}
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 201
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
-{
-    "id": 66517,
-    "name": "Introduction to Rest Assured [On Demand] [Mandatory] [Free]",
-    "description": "test description for on demand course.",
-    "mode": "ON_DEMAND",
-    "type": "SHORT_COURSE",
-    "difficultyLevel": "BEGINNER",
-    "outlines": [
-        {
-            "title": "Introduction Session",
-            "description": "This session provides an overview of the course objectives, structure, and expectations. It also includes a brief introduction of the instructor and an opportunity for students to introduce themselves."
-        }
-    ],
-    "expertsPanel": [
-        {
-            "name": "Dr. Sachin Seram",
-            "designation": "Senior Lecturer"
-        }
-    ],
-    "frequentlyAskedQuestions": [
-        
-    ],
-    "collaborationLogos": [
-        
-    ],
-    "sequence": [
-        
-    ],
-    "registrationStartDate": null,
-    "registrationEndDate": null,
-    "startDate": null,
-    "endDate": null,
-    "coverImageUrl": "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-    "previewVideo": "",
-    "needToPrepareSection": "",
-    "bannerVectorUrl": "",
-    "prerequisites": "",
-    "classSchedule": "classes will be held on weekends",
-    "fieldOfStudy": "INTERNET_OF_THINGS",
-    "rating": 0.0,
-    "price": null,
-    "draft": false,
-    "courseType": "Short Course",
-    "courseDifficultyLevel": "BEGINNER",
-    "courseDuration": "12 hours of videos",
-    "specialization": "Internet Of Things",
-    "instructorName": "Jhon Doe",
-    "instructorProfilePicture": "https://devsalearnovaeastus2.blob.core.windows.net/dev-storage-container-learnova-eastus2/images%2Fimages_jpg.jpg",
-    "totalReviews": [
-        
-    ],
-    "totalNumberOfReviews": "0",
-    "createdBy": 31301,
-    "createdDate": "2024-02-23T17:53:14.951733256Z",
-    "lastModifiedBy": 31301,
-    "lastModifiedDate": "2024-02-23T17:53:14.951733256Z",
-    "formLink": null,
-    "enrolled": null,
-    "enrollmentId": null,
-    "paid": false,
-    "couponAllowed": false
-}
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testCreateOnDemandCourseMandatoryFieldsFree succeed
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testCreateOnDemandCourseMandatoryFieldsPaid start
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
-[ {
-  "name" : "Content-Type",
-  "value" : "application/json"
-}, {
-  "name" : "Authorization",
-  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjAzOTAsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzEwNzkwLCJ1c2VySWQiOjMxMzAxfQ.ksXACfTyqZbhAClxFpPN38RBB2aPA1WBKzejnzHj0UZ2yruzGSYh3hc1IpPU96oeJe6JbyI7KCr1UJK41JD6Fg"
-} ]
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
-{
-  "name" : "Introduction to Rest Assured [On Demand] [Mandatory] [Paid]",
-  "description" : "test description for on demand course.",
-  "type" : "SHORT_COURSE",
-  "difficultyLevel" : "BEGINNER",
-  "outlines" : [ {
-    "title" : "Introduction Session",
-    "description" : "This session provides an overview of the course objectives, structure, and expectations. It also includes a brief introduction of the instructor and an opportunity for students to introduce themselves."
+  "frequentlyAskedQuestions" : [ {
+    "question" : "Who can use this FAQ template?",
+    "answer" : "This FAQ template is for marketers, business owners and freelancers who want to reduce customer service efforts. Swap your standard FAQ section for an engaging online form, and make it easier for customers to find what they need."
   } ],
-  "expertsPanel" : [ {
-    "name" : "Dr. Sachin Seram",
-    "designation" : "Senior Lecturer"
+  "collaborationLogos" : [ {
+    "name" : "download.jpeg999f0b6c-3a30-4143-bd6c-508a14f4429e.jpg",
+    "url" : "https://devsalearnovaeastus2.blob.core.windows.net/dev-storage-container-learnova-eastus2/images%2Fdownload.jpeg999f0b6c-3a30-4143-bd6c-508a14f4429e.jpg"
   } ],
-  "frequentlyAskedQuestions" : [ ],
-  "collaborationLogos" : [ ],
+  "registrationStartDate" : "2024-01-01T15:03:01.000Z",
+  "registrationEndDate" : "2024-01-30T15:03:01.000Z",
+  "startDate" : "2024-02-05T15:03:01.000Z",
+  "endDate" : "2024-06-30T15:03:01.000Z",
   "coverImageUrl" : "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-  "previewVideo" : "",
-  "needToPrepareSection" : "",
-  "bannerVectorUrl" : "",
-  "prerequisites" : "",
+  "previewVideo" : "https://www.youtube.com/watch?v=OM4mr3PKgcQ&list=PLUDwpEzHYYLvLZX_QEGTNolPvNADXid0I",
+  "needToPrepareSection" : "not required",
+  "bannerVectorUrl" : "https://community.nasscom.in/wp-content/uploads/2020/11/2-Copy-1024x539.png",
+  "prerequisites" : "There should be basic knowledge in API testing",
   "classSchedule" : "classes will be held on weekends",
-  "fieldOfStudy" : "INTERNET_OF_THINGS",
-  "price" : 25000.0,
-  "mode" : "ON_DEMAND",
+  "fieldOfStudy" : "COMPUTER_ARCHITECTURE",
+  "price" : 15600.0,
+  "mode" : "LIVE_CLASS",
   "isPaid" : true,
   "isCouponAllowed" : true,
   "estimatedCourseDuration" : "12 hours of videos"
 }
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 201
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 200
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
 {
-    "id": 66518,
-    "name": "Introduction to Rest Assured [On Demand] [Mandatory] [Paid]",
-    "description": "test description for on demand course.",
-    "mode": "ON_DEMAND",
-    "type": "SHORT_COURSE",
-    "difficultyLevel": "BEGINNER",
+    "id": 66520,
+    "name": "Introduction to Rest Assured [Updated]",
+    "description": "test description [Updated]",
+    "mode": "LIVE_CLASS",
+    "type": "COURSE",
+    "difficultyLevel": "INTERMEDIATE",
     "outlines": [
         {
             "title": "Introduction Session",
@@ -719,32 +392,56 @@
         }
     ],
     "frequentlyAskedQuestions": [
-        
+        {
+            "question": "Who can use this FAQ template?",
+            "answer": "This FAQ template is for marketers, business owners and freelancers who want to reduce customer service efforts. Swap your standard FAQ section for an engaging online form, and make it easier for customers to find what they need."
+        }
     ],
     "collaborationLogos": [
-        
+        {
+            "name": "download.jpeg999f0b6c-3a30-4143-bd6c-508a14f4429e.jpg",
+            "url": "https://devsalearnovaeastus2.blob.core.windows.net/dev-storage-container-learnova-eastus2/images%2Fdownload.jpeg999f0b6c-3a30-4143-bd6c-508a14f4429e.jpg"
+        }
     ],
     "sequence": [
-        
+        {
+            "lessonId": 66555,
+            "units": [
+                {
+                    "unitId": 66605,
+                    "chapters": [
+                        {
+                            "chapterId": 66655,
+                            "contents": [
+                                {
+                                    "contentId": 66705,
+                                    "type": "CHAPTER_TEXT_CONTENT"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ],
-    "registrationStartDate": null,
-    "registrationEndDate": null,
-    "startDate": null,
-    "endDate": null,
+    "registrationStartDate": "2024-01-01T15:03:01Z",
+    "registrationEndDate": "2024-01-30T15:03:01Z",
+    "startDate": "2024-02-05T15:03:01Z",
+    "endDate": "2024-06-30T15:03:01Z",
     "coverImageUrl": "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-    "previewVideo": "",
-    "needToPrepareSection": "",
-    "bannerVectorUrl": "",
-    "prerequisites": "",
+    "previewVideo": "https://www.youtube.com/watch?v=OM4mr3PKgcQ&list=PLUDwpEzHYYLvLZX_QEGTNolPvNADXid0I",
+    "needToPrepareSection": "not required",
+    "bannerVectorUrl": "https://community.nasscom.in/wp-content/uploads/2020/11/2-Copy-1024x539.png",
+    "prerequisites": "There should be basic knowledge in API testing",
     "classSchedule": "classes will be held on weekends",
-    "fieldOfStudy": "INTERNET_OF_THINGS",
+    "fieldOfStudy": "COMPUTER_ARCHITECTURE",
     "rating": 0.0,
-    "price": 25000.0,
+    "price": 15600.0,
     "draft": false,
-    "courseType": "Short Course",
-    "courseDifficultyLevel": "BEGINNER",
-    "courseDuration": "12 hours of videos",
-    "specialization": "Internet Of Things",
+    "courseType": "Course",
+    "courseDifficultyLevel": "INTERMEDIATE",
+    "courseDuration": "20 weeks",
+    "specialization": "Computer Architecture",
     "instructorName": "Jhon Doe",
     "instructorProfilePicture": "https://devsalearnovaeastus2.blob.core.windows.net/dev-storage-container-learnova-eastus2/images%2Fimages_jpg.jpg",
     "totalReviews": [
@@ -752,117 +449,26 @@
     ],
     "totalNumberOfReviews": "0",
     "createdBy": 31301,
-    "createdDate": "2024-02-23T17:53:15.275112405Z",
+    "createdDate": "2024-02-23T18:53:12.512772280Z",
     "lastModifiedBy": 31301,
-    "lastModifiedDate": "2024-02-23T17:53:15.275112405Z",
+    "lastModifiedDate": "2024-02-23T18:53:12.513267987Z",
     "formLink": null,
     "enrolled": null,
     "enrollmentId": null,
     "paid": true,
     "couponAllowed": true
 }
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testCreateOnDemandCourseMandatoryFieldsPaid succeed
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testCreateOnDemandCourseMandatoryFieldsPaidCouponNotAllowed start
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.util.RestUtil - Request Headers - 
-[ {
-  "name" : "Content-Type",
-  "value" : "application/json"
-}, {
-  "name" : "Authorization",
-  "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJza2ZhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE3MDk5MjAzOTAsImF1dGgiOiJST0xFX0FETUlOIiwiaWF0IjoxNzA4NzEwNzkwLCJ1c2VySWQiOjMxMzAxfQ.ksXACfTyqZbhAClxFpPN38RBB2aPA1WBKzejnzHj0UZ2yruzGSYh3hc1IpPU96oeJe6JbyI7KCr1UJK41JD6Fg"
-} ]
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.util.RestUtil - Request Body - 
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testUpdateCourse succeed
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestStart method testDeleteCourse start
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 400
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
 {
-  "name" : "Introduction to Rest Assured [On Demand] [Mandatory] [Paid] [No_Coupons]",
-  "description" : "test description for on demand course.",
-  "type" : "SHORT_COURSE",
-  "difficultyLevel" : "BEGINNER",
-  "outlines" : [ {
-    "title" : "Introduction Session",
-    "description" : "This session provides an overview of the course objectives, structure, and expectations. It also includes a brief introduction of the instructor and an opportunity for students to introduce themselves."
-  } ],
-  "expertsPanel" : [ {
-    "name" : "Dr. Sachin Seram",
-    "designation" : "Senior Lecturer"
-  } ],
-  "frequentlyAskedQuestions" : [ ],
-  "collaborationLogos" : [ ],
-  "coverImageUrl" : "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-  "previewVideo" : "",
-  "needToPrepareSection" : "",
-  "bannerVectorUrl" : "",
-  "prerequisites" : "",
-  "classSchedule" : "classes will be held on weekends",
-  "fieldOfStudy" : "INTERNET_OF_THINGS",
-  "price" : 25000.0,
-  "mode" : "ON_DEMAND",
-  "isPaid" : true,
-  "isCouponAllowed" : false,
-  "estimatedCourseDuration" : "12 hours of videos"
+    "timeStamp": "02-24-2024 12:23:12",
+    "title": "BAD_REQUEST",
+    "status": 400,
+    "detail": "Deletion is not allowed for this course as it has already been purchased by students.",
+    "message": "Deletion is not allowed for this course as it has already been purchased by students.",
+    "data": null
 }
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.util.RestUtil - Response Status - 201
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.util.RestUtil - Response Body - 
-{
-    "id": 66519,
-    "name": "Introduction to Rest Assured [On Demand] [Mandatory] [Paid] [No_Coupons]",
-    "description": "test description for on demand course.",
-    "mode": "ON_DEMAND",
-    "type": "SHORT_COURSE",
-    "difficultyLevel": "BEGINNER",
-    "outlines": [
-        {
-            "title": "Introduction Session",
-            "description": "This session provides an overview of the course objectives, structure, and expectations. It also includes a brief introduction of the instructor and an opportunity for students to introduce themselves."
-        }
-    ],
-    "expertsPanel": [
-        {
-            "name": "Dr. Sachin Seram",
-            "designation": "Senior Lecturer"
-        }
-    ],
-    "frequentlyAskedQuestions": [
-        
-    ],
-    "collaborationLogos": [
-        
-    ],
-    "sequence": [
-        
-    ],
-    "registrationStartDate": null,
-    "registrationEndDate": null,
-    "startDate": null,
-    "endDate": null,
-    "coverImageUrl": "https://media.licdn.com/dms/image/D4D12AQGUFz6pDZzKYQ/article-cover_image-shrink_720_1280/0/1658400820592?e=2147483647&v=beta&t=_V1yQDtefqFfzTDr6M1FSfgMz1xNSYg4KUknhcl3-xY",
-    "previewVideo": "",
-    "needToPrepareSection": "",
-    "bannerVectorUrl": "",
-    "prerequisites": "",
-    "classSchedule": "classes will be held on weekends",
-    "fieldOfStudy": "INTERNET_OF_THINGS",
-    "rating": 0.0,
-    "price": 25000.0,
-    "draft": false,
-    "courseType": "Short Course",
-    "courseDifficultyLevel": "BEGINNER",
-    "courseDuration": "12 hours of videos",
-    "specialization": "Internet Of Things",
-    "instructorName": "Jhon Doe",
-    "instructorProfilePicture": "https://devsalearnovaeastus2.blob.core.windows.net/dev-storage-container-learnova-eastus2/images%2Fimages_jpg.jpg",
-    "totalReviews": [
-        
-    ],
-    "totalNumberOfReviews": "0",
-    "createdBy": 31301,
-    "createdDate": "2024-02-23T17:53:15.601920701Z",
-    "lastModifiedBy": 31301,
-    "lastModifiedDate": "2024-02-23T17:53:15.601920701Z",
-    "formLink": null,
-    "enrolled": null,
-    "enrollmentId": null,
-    "paid": true,
-    "couponAllowed": false
-}
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testCreateOnDemandCourseMandatoryFieldsPaidCouponNotAllowed succeed
-2024-02-23 23:23:15 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onFinish method RestAssuredAssignment
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onTestSuccess method testDeleteCourse succeed
+2024-02-24 00:23:12 [main] INFO  com.syntaxgenie.listeners.TestListener - I am in onFinish method RestAssuredAssignment
